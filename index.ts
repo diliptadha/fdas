@@ -1,4 +1,4 @@
-import { S3Client, s3 } from "bun";
+import { S3Client } from "bun";
 
 const client = new S3Client({
   accessKeyId: "env",
