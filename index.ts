@@ -15,7 +15,7 @@ const response = await fetch(
 const lazyS3File = client.file("asdf");
 
 const resposes = new Response(lazyS3File);
-console.log(resposes);
+console.log("resposes", resposes);
 
 // const writer = lazyS3File.writer({
 //   retry: 3,
