@@ -1,6 +1,6 @@
 import { S3Client } from "bun";
 
-console.log("ok");
+console.log("asdfasdflkdkdkdkd");
 
 const client = new S3Client({
   accessKeyId: "env",
